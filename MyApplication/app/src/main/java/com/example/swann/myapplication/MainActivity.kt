@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     inc = -inc
                 }
                 R.id.button2 -> {
-                    inc = 1git
+                    inc = 1
                 }
 
             }
@@ -45,5 +45,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         button3.setOnClickListener(this@MainActivity)
         button4.setOnClickListener(this@MainActivity)
         button5.setOnClickListener(this@MainActivity)
+        textView3.text = i.toString()
     }
 }
